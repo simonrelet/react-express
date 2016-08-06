@@ -1,0 +1,21 @@
+{
+  "extends": ["google", "eslint:recommended", "plugin:react/recommended"],
+  "plugins": [
+    "react"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "node": true,
+    "browser": true,
+    "es6": true,
+    "jquery": true
+  },
+  "rules": {
+    "object-curly-spacing": ["error", "always"]
+  }
+}
